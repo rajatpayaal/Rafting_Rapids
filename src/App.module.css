@@ -12,9 +12,21 @@
 }
 .App2{
   background-color: var(--color-bg);
-  width: 100%;
-  height: 100%;
+  width: (3rem, vw + 0.75rem, 6rem);
+  /* height: 100%; */
   overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 10px;
   /* background: radial-gradient(926px at 2.7% 11%, rgb(17, 29, 94) 0%, rgb(178, 31, 102) 90%); */
-  background-image: url(assets/images/barea.jpg);
+  background-image: url(assets/images/abc.jpg);
+ 
 }
+.App3{
+  background:linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);;
+  width:100%;
+  /* height: 100%; */
+}
+
+/* Center and scale the image nicely */

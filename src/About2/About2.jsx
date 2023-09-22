@@ -1,13 +1,13 @@
 import React, { useState } from "react";
 
-import styles from "./About.module.css";
+import styles from "./About2.module.css";
 import { getImageUrl } from "../utils";
 // import { Profile } from "../Profile/Profile";
 
 
 
 
-export const About = () => {
+export const About2 = () => {
   const [showProfile,setShowProfile]=useState(false) ; 
  const handleClick=()=>{
   setShowProfile((prevShowProfile)=>!prevShowProfile);
@@ -16,7 +16,10 @@ export const About = () => {
   return (
     
     <section className={styles.container} id="about">
-      {/* <p1 className={styles.title11}>I'm Rajat Payal </p1> */}
+        <br></br>
+        <p1 className={styles.title}>River Rafting </p1><br/><br/>
+      <p1 className={styles.title11}>"Experience thrilling white-water rafting adventures with expert guides amidst breathtaking nature in remote, untamed rivers. An unforgettable adrenaline rush awaits!"
+      One of the most amazing thing or sport activity i had done in my life. A thrilling experience when you face the real power of water in various level of rapid. Also it feel so nice when you swim in the middle of Maa Gange River. Must do the cliff jumping if you are faint heart do not try it or overcome your fear. </p1>
       <div>
         <br></br>
       </div>
@@ -34,13 +37,7 @@ export const About = () => {
               {/* <p>
               "Experience thrilling white-water rafting adventures with expert guides amidst breathtaking nature in remote, untamed rivers. An unforgettable adrenaline rush awaits!"
               </p> */}
-              <br />
-              <br />
-              <br />
-              <br /><br />
-              <br />
-              <br />
-              <br />
+            
               
               
             </div>
